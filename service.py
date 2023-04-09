@@ -6,3 +6,6 @@ class mommy:
     def printout(self):
         print(f'name is: {self.name}, age is: {self.age}')
 
+mom  = mommy("irin", 35)
+
+mom.printout()
